@@ -1,10 +1,9 @@
 # Web Starter Kit
 * Starter Docker Containers for Web
 * To create simple Web containers:
-
-		* ease of use
-		* prove of concepts
-		* site place holder
+    * ease of use
+    * prove of concepts
+    * as placeholder for new site
 
 ## URL
 * [https://siakhooi.github.io/starter-web/](https://siakhooi.github.io/starter-web/)

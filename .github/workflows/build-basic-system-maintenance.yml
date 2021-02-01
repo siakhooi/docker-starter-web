@@ -11,7 +11,7 @@ env:
 on:
   push:
     paths:
-    - 'basic/coming-soon/**'
+    - 'basic/system-maintenance/**'
 
 jobs:
   build_to_hub:

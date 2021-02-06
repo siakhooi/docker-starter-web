@@ -3,3 +3,4 @@ LABEL maintainer="siakhooi@gmail.com"
 LABEL name="Web Starter Kit - Coming Soon"
 
 COPY www /usr/share/nginx/html
+COPY default.conf /etc/nginx/conf.d/default.conf

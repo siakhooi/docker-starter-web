@@ -12,6 +12,7 @@ on:
   push:
     paths:
     - 'nodejs/nodejs/**'
+    - '.github/workflows/build-nodejs-nodejs.yml'
 
 jobs:
   build_to_hub:

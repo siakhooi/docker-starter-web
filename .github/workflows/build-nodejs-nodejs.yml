@@ -10,10 +10,8 @@ env:
 
 on:
   push:
-    branches:
-      - master
-        paths:
-           - 'nodejs/nodejs/**'
+    paths:
+    - 'nodejs/nodejs/**'
 
 jobs:
   build_to_hub:

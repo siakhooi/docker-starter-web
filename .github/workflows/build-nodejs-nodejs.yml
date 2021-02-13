@@ -1,0 +1,30 @@
+name: nodejs-nodejs
+
+env:
+  MY_DIRECTORY: nodejs/nodejs
+  MY_DOCKERFILE: Dockerfile 
+  MY_REGISTRY: registry.hub.docker.com
+  MY_REGISTRY_USER: ${{ secrets.MY_REGISTRY_USER }}
+  MY_REGISTRY_PASSWORD: ${{ secrets.MY_REGISTRY_PASSWORD }}
+  MY_TAG: siakhooi/starter-web:nodejs
+
+on:
+  push:
+    branches:
+      - master
+        paths:
+           - 'nodejs/nodejs/**'
+
+jobs:
+  build_to_hub:
+    name: Build Container and push image to Docker Hub
+    runs-on: ubuntu-latest
+    container: 
+        image: docker:19.03.12-dind
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: chmod build script
+        run: chmod +x .github/workflows/build-script.sh
+      - name: run build script
+        run: .github/workflows/build-script.sh

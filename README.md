@@ -6,6 +6,6 @@
     * as placeholder for new site
 
 ## URL
-* [https://siakhooi.github.io/starter-web/](https://siakhooi.github.io/starter-web/)
-* [https://github.com/siakhooi/starter-web](https://github.com/siakhooi/starter-web)
-* [https://hub.docker.com/repository/docker/siakhooi/starter-web](https://hub.docker.com/repository/docker/siakhooi/starter-web)
+* <https://siakhooi.github.io/docker-starter-web/>
+* <https://github.com/siakhooi/docker-starter-web>
+* <https://hub.docker.com/repository/docker/siakhooi/docker-starter-web>

@@ -21,7 +21,7 @@ jobs:
         image: docker:dind
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: chmod build script
         run: chmod +x .github/workflows/build-script.sh
       - name: run build script
